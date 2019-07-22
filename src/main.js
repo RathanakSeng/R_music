@@ -8,17 +8,20 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import {sync} from 'vuex-router-sync'
 import store from '@/store'
+import send from '@/send_email'
 
 Vue.use(Vuetify)
 Vue.config.productionTip = false
 
 sync(store, router)
+sync(send, router)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   store,
+  send,
   components: { App },
   template: '<App/>',
   created () {

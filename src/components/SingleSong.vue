@@ -5,7 +5,7 @@
       <v-layout column>
         <v-flex xs12 sm12 md12 lg12 pl-4 pr-4>
           <v-card>
-            <iframe width="100%" height="550px" src="https://www.youtube.com/embed/b73BI9eUkjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="200px" src="https://www.youtube.com/embed/b73BI9eUkjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <v-card-title primary-title>
                 <div class="headline">Title: Solo</div>
                 <v-spacer></v-spacer>

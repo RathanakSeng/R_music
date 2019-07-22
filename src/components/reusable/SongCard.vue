@@ -2,7 +2,7 @@
   <v-card>
     <v-img
       :src="img"
-      height="150px"
+      height="130px"
       >
     </v-img>
     <v-card-title primary-title>
